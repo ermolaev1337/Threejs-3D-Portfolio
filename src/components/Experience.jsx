@@ -1,4 +1,5 @@
 import React from "react";
+import moment from 'moment';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -56,12 +57,20 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+const calculateAge = () => {
+    const now = moment();
+    console.log('now', now)
+    const then = moment(815196300000)
+    console.log('then', then)
+    return now.diff(then, 'days')
+}
+
 const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>Started {calculateAge()} days ago</p>
+        <h2 className={styles.sectionHeadText}>My path.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
@@ -75,4 +84,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "experience");

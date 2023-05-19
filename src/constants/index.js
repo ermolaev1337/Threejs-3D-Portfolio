@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  omsk,
+  dresden,
+  lugano,
+  luxembourg,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +31,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -42,129 +46,159 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Software Engineering",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Blockchain Smart Contracts",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Self-Sovereign Identity",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Zero-Knowledge Proof",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "JavaScript",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "TypeScript",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "Solidity",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Circom",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Ethereum",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Algorand",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Node.js",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "React",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "React Native",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Docker",
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "AWS",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "CloudFlare",
     icon: docker,
+  },
+  {
+    name: "Figma",
+    icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Omsk State Transport University",
+    company_name: "Omsk, Russia",
+    icon: omsk,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2013 - February 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Russian Presidential Scholarship",
+      "Specialist degree \"Information-Analytical Security Systems\" with Honours 5.0/5.0",
+      "Trade Union Committee member",
+      "Academic Council member",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Dresden University of Technology",
+    company_name: "Dresden, Germany",
+    icon: dresden,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "October 2016 - March 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Georgius Agricola Scholarship",
+      "Master's exchange programme \"Distributed Systems Engineering\"",
+    ],
+  },
+  {
+    title: "University of Lugano",
+    company_name: "Lugano, Switzerland",
+    icon: lugano,
+    iconBg: "#E6DEDD",
+    date: "January 2018 - June 2018",
+    points: [
+      "Master Research Scholarship",
+      "Scientific collaborator at \"Ubiquitous Computing Research Group\"",
+      "Project \"Just Share It\"",
+      "Publication \"Sharing physical objects using smart contracts\"",
+    ],
+  },
+  {
+    title: "Platinum",
+    company_name: "Huahin, Thailand",
+    icon: lugano,
+    iconBg: "#E6DEDD",
+    date: "July 2018 - February 2019",
+    points: [
+      "Position of Blockchain&Fullstack developer at Crypto start-up",
+      "Development of Smart Contracts of Ethereum blockchain for ICO, marketing, and gambling",
+      "Automation of Airdrops, including Merkle trees",
+      "Sales at the \"Beyond Blocks 2018\" blockchain summit in Bangkok",
+    ],
+  },
+  {
+    title: "GShopper",
+    company_name: "Moscow, Russia",
+    icon: lugano,
+    iconBg: "#E6DEDD",
+    date: "March 2019 - January 2021",
+    points: [
+      "R&D position in the e-commerce start-up",
+      "Cracked Amazon's CAPTCHA algorithm which reached 98% resolving rate from the first attempt which saved a lot of money",
+      "Fullstack developments in the data scrapping domain",
+      "Design of microservice-based infrastructure, using Rabbit MQ",
+      "Development of Chrome extensions for passive data scrapping",
+      "Development of human-like behavioural algorithms for browser automation, using Headless Chrome",
+      "Facilitation and fine-tuning of Optical Character Recognition neural networks",
+    ],
+  },
+  {
+    title: "University of Luxembourg",
+    company_name: "Luxembourg City, Luxembourg",
+    icon: luxembourg,
+    iconBg: "#E6DEDD",
+    date: "February 2021 - Nowadays",
+    points: [
+      "Doctoral researcher at \"FINATRAX Research Group\"",
+      "Focus on \"Blockchain Benchmarking\", \"Self-Sovereign Identity\", and \"Zero-Knowledge Proof\"",
+      "Project \"European Blockchain Services Infrastructure Luxembourg\"",
+      "Victory on hackathon. Project \"MEETS ID\" - decentralised management system for medical e-prescriptions",
+      "Double victory on hackathon. Project \"Gamification for Reduced Energy Consumption\" - secure infrastructure to preserve privacy when using energy consumption data",
+      "Publication \"z-Commerce: Designing a data-minimizing one-click checkout solution\"",
+      "Publication \"Beyond a Fistful of Tumblers: Toward a Multi-layered Taxonomy of Ethereum-based Crypto-asset Mixers\"",
     ],
   },
 ];
@@ -198,41 +232,61 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "FastCarSale",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Landing page for a leading car buy back service with a form which collects requests from clients and send via email",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CloudFlare",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "http://fastcarsale.ru/",
   },
   {
-    name: "Job IT",
+    name: "Just Share It",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A cross-platform mobile application for Sharing Economy which facilitates Etheruem blockchain as a medium for monetary interaction and its Smart Contracts for handling trustworthy and publicly accessible rating of users and stages of borrowing/lending",
     tags: [
       {
-        name: "react",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Hardhat",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ionic",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
     ],
@@ -240,22 +294,107 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "EBSILUX",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "High-level architecture design for an early-adopter project of the European Blockchain Infrastructure Luxembourg, diploma use-case",
     tags: [
       {
-        name: "nextjs",
+        name: "Docker",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Walt.id",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Voice of ChatCPT",
+    description:
+        "Telegram bot which allows for access to ChatGPT without location-based discrimination",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Telegraf",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "MEETS ID",
+    description:
+        "Copy description for the article",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Gamification for Reduced Energy Consumption",
+    description:
+        "Copy description for the article",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Remix",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Circom",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MPC",
+        color: "pink-text-gradient",
+      },
+
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
