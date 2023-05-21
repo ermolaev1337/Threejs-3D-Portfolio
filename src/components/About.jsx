@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       Egor
+          Hello! Nice to meet you. I have always been involved in academic activities that produce exceptional results, as well as private-sector projects that facilitate cutting-edge technologies. Being at the intersection of academia and market needs is my main advantage. I bridge academia and the private sector, engineering and businesses to achieve maximum output
         </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

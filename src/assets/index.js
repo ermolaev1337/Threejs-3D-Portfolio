@@ -29,7 +29,23 @@ import tripguide from "./tripguide.png";
 import omsk from "./city/omsk.svg";
 import dresden from "./city/dresden.svg";
 import lugano from "./city/lugano.svg";
+import bangkok from "./city/bangkok.svg";
+import moscow from "./city/moscow.svg";
 import luxembourg from "./city/luxembourg.svg";
+
+import fastcarsale from "./project/fastcarsale.png";
+import justshareit from "./project/justshareit.png";
+import ebsilux from "./project/ebsilux.png";
+import chatgpt from "./project/chatgpt.jpeg";
+import prescription from "./project/prescription.png";
+import mpczkp from "./project/mpczkp.png";
+
+import fastcarsaleIcon from "./project/logo/fastcarsale.svg";
+import justshareitIcon from "./project/logo/justshareit.png";
+import ebsiluxIcon from "./project/logo/ebsilux.png";
+import chatgptIcon from "./project/logo/chatgpt.svg";
+import prescriptionIcon from "./project/logo/prescription.png";
+import mpczkpIcon from "./project/logo/mpczkp.png";
 
 export {
   logo,
@@ -53,12 +69,26 @@ export {
   tailwind,
   typescript,
   threejs,
-  luxembourg,
+  carrent,
+  jobit,
+  tripguide,
   shopify,
   omsk,
   dresden,
   lugano,
-  carrent,
-  jobit,
-  tripguide,
+  bangkok,
+  moscow,
+  luxembourg,
+  fastcarsale,
+  justshareit,
+  ebsilux,
+  chatgpt,
+  prescription,
+  mpczkp,
+  fastcarsaleIcon,
+  justshareitIcon,
+  ebsiluxIcon,
+  chatgptIcon,
+  prescriptionIcon,
+  mpczkpIcon,
 };

@@ -12,17 +12,26 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
   figma,
   docker,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   omsk,
   dresden,
   lugano,
   luxembourg,
+  bangkok,
+  moscow,
+  fastcarsale,
+  justshareit,
+  fastcarsaleIcon,
+  justshareitIcon,
+  ebsilux,
+  ebsiluxIcon,
+  chatgpt,
+  chatgptIcon,
+  prescription,
+  prescriptionIcon, mpczkp, mpczkpIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -158,12 +167,12 @@ const experiences = [
   },
   {
     title: "Platinum",
-    company_name: "Huahin, Thailand",
-    icon: lugano,
+    company_name: "Bangkok, Thailand",
+    icon: bangkok,
     iconBg: "#E6DEDD",
     date: "July 2018 - February 2019",
     points: [
-      "Position of Blockchain&Fullstack developer at Crypto start-up",
+      "Blockchain&Fullstack position in the Crypto start-up",
       "Development of Smart Contracts of Ethereum blockchain for ICO, marketing, and gambling",
       "Automation of Airdrops, including Merkle trees",
       "Sales at the \"Beyond Blocks 2018\" blockchain summit in Bangkok",
@@ -172,11 +181,11 @@ const experiences = [
   {
     title: "GShopper",
     company_name: "Moscow, Russia",
-    icon: lugano,
+    icon: moscow,
     iconBg: "#E6DEDD",
     date: "March 2019 - January 2021",
     points: [
-      "R&D position in the e-commerce start-up",
+      "R&D position in the E-Commerce start-up",
       "Cracked Amazon's CAPTCHA algorithm which reached 98% resolving rate from the first attempt which saved a lot of money",
       "Fullstack developments in the data scrapping domain",
       "Design of microservice-based infrastructure, using Rabbit MQ",
@@ -234,7 +243,7 @@ const projects = [
   {
     name: "FastCarSale",
     description:
-      "Landing page for a leading car buy back service with a form which collects requests from clients and send via email",
+      "Landing page for a leading car buyback service with a form that collects requests from clients and sends them via email",
     tags: [
       {
         name: "React",
@@ -253,13 +262,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: fastcarsale,
+    logo:fastcarsaleIcon,
     source_code_link: "http://fastcarsale.ru/",
   },
   {
     name: "Just Share It",
     description:
-      "A cross-platform mobile application for Sharing Economy which facilitates Etheruem blockchain as a medium for monetary interaction and its Smart Contracts for handling trustworthy and publicly accessible rating of users and stages of borrowing/lending",
+        "A cross-platform mobile application designed for the Sharing Economy that utilizes the Ethereum blockchain as a medium for monetary interaction and its Smart Contracts to handle trustworthy and publicly accessible user ratings as well as the various stages of borrowing and lending.",
     tags: [
       {
         name: "Solidity",
@@ -290,13 +300,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: justshareit,
+    logo: justshareitIcon,
+    source_code_link: "https://pc.inf.usi.ch/studentproject/just-share-it-smartphone-app-to-support-shearing-physical-objects-2/",
   },
   {
     name: "EBSILUX",
     description:
-      "High-level architecture design for an early-adopter project of the European Blockchain Infrastructure Luxembourg, diploma use-case",
+        "The EBSILUX project is intended to integrate Luxembourg into the European Blockchain Service Infrastructure (EBSI) and implement a European EBSI use case at the national level. This involves the design of a high-level architecture",
     tags: [
       {
         name: "Docker",
@@ -311,13 +322,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ebsilux,
+    logo: ebsiluxIcon,
+    source_code_link: "https://ebsilux.lu/",
   },
   {
     name: "Voice of ChatCPT",
     description:
-        "Telegram bot which allows for access to ChatGPT without location-based discrimination",
+        "Telegram bot that permits access to the renowned ChatGPT without any discrimination.",
     tags: [
       {
         name: "Docker",
@@ -332,13 +344,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatgpt,
+    logo: chatgptIcon,
+    source_code_link: "https://t.me/VoiceOfChatGPTBot",
   },
   {
-    name: "MEETS ID",
+    name: "A Decentralized Electronic Prescription Management System",
     description:
-        "Copy description for the article",
+        "A decentralized electronic prescription management system will digitize, transform, and simplify current prescription processes; speed up transactions; reduce costs; and increase transparency and trust",
     tags: [
       {
         name: "Docker",
@@ -358,13 +371,14 @@ const projects = [
       },
 
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: prescription,
+    logo: prescriptionIcon,
+    source_code_link: "https://wwwfr.uni.lu/snt/news_events/finatrax_participates_in_winning_team_for_infrachain_challenge_2021",
   },
   {
     name: "Gamification for Reduced Energy Consumption",
     description:
-        "Copy description for the article",
+        "A secure infrastructure is provided for the privacy-preserving use of energy consumption data. It enables individuals and organizations to compete for the lowest electricity consumption and to earn rewards for winning in an open ecosystem",
     tags: [
       {
         name: "Docker",
@@ -396,8 +410,9 @@ const projects = [
       },
 
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mpczkp,
+    logo: mpczkpIcon,
+    source_code_link: "https://wwwfr.uni.lu/snt/news_events/finatrax_is_once_again_winner_of_the_infrachain_challenge",
   },
 ];
 
