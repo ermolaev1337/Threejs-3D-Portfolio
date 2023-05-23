@@ -63,7 +63,7 @@ const Navbar = () => {
           }}
         >
           {/*<img src={logo} alt="logo" className="w-9 h-9 object-contain" />*/}
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className="text-secondary text-[18px] font-bold cursor-pointer flex ">
             Egor Ermolaev
           </p>
         </Link>
@@ -73,8 +73,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.id ? "text-secondary" : "text-white"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.id ? "text-white" : "text-secondary"
+              } hover:text-tertiary text-[18px] font-medium cursor-pointer`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
