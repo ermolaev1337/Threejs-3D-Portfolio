@@ -294,11 +294,7 @@ const projects = [
       {
         name: "Mongodb",
         color: "pink-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "pink-text-gradient",
-      },
+      }
     ],
     image: justshareit,
     logo: justshareitIcon,
