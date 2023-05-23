@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
+      if (scrollTop > 500) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -73,7 +73,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.id ? "text-white" : "text-secondary"
+                active === nav.id ? "text-secondary" : "text-white"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
